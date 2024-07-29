@@ -1,0 +1,82 @@
+:root{
+    --color:#55595d ;
+    --color1:#cccfd5;
+}
+
+body{
+    background-color: var(--color) !important;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+    font-family: "Balsamiq Sans" !important;
+   
+}
+h4{
+    color:white ;
+}
+.container{
+    height: 100vh;
+}
+.bg{
+    padding: 10px !important;
+border-radius: 8px;
+    background-color:#6A6C70;
+}
+#main{
+    overflow-y: scroll;
+    height: 250px;
+    /* padding-top: 50px; */
+    /* margin-top: 150px; */
+    color: white;
+}
+.bg1{
+ 
+    padding: 10px;
+border-radius: 8px;
+    background-color:#6A6C70;
+}
+.bg1>div{border-radius: 8px;
+    padding: 10px;
+    color: white;
+    margin: 0px 2px;
+    /* color: white; */
+    background-color: var(--color) !important;
+}
+h2{
+    color: white;
+}
+input::placeholder{
+    color: var(--color) !important;
+}
+input{
+    outline: none;
+    color: var(--color) !important;
+    border-radius: 5px;
+    border: none;
+    /* border: 3px solid var(--color); */
+    /* background-color: transparent; */
+   background-color: var(--color1 );
+    padding: 10px;
+    font-size: 15px !important;
+}
+button{border-radius: 5px !important;
+    padding: 10px;      font-size: 15px !important;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: var(--color) !important;
+}
+h6{
+    color: var(--color);
+    padding: 10px;border-radius: 5px;
+    background-color: var(--color1)
+    ;
+}
+i{
+    border-radius: 10px;
+    margin: 0px 2px;
+    background-color: var(--color);
+    padding: 10px;
+    color: var(--color1);
+    font-size: 24px !important;
+}
