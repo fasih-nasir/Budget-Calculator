@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: var(--color) !important;
+    background-color: #55595d  !important;
+    /* background-color: var(--/color) !important; */
     margin: 0px;
     padding: 0px;
     text-transform: capitalize;
